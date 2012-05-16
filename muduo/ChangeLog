@@ -1,0 +1,152 @@
+2011-06-02  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add examples/shorturl.
+  * Version 0.2.4
+
+2011-05-24  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Fix warnings on Arch Linux (GCC 4.6.0), thanks to ifreedom
+  * Add CMake install instructions, thanks to ifreedom
+  * Fix warnings on 32-bit Linux, thanks to highshow
+  * Version 0.2.3
+
+2011-05-15  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Changes from reactor tutorial
+  * Version 0.2.2
+
+2011-05-07  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Try making TcpClient destructable
+  * Add demux in examples/multiplexer
+  * Add examples/socks4a
+  * Changes for reactor tutorial
+  * Version 0.2.1
+
+2011-04-27  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add kick idle connection example in examples/idleconnection.
+  * Add test harness to examples/multiplexer
+  * Replace std::list with std::set in TimerQueue.
+  * Version 0.2.0
+
+2011-04-11  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add Google Protobuf codec and dispatcher
+  * Revert 'Add max connection limit to simple echo example.'
+  * Add max connection limit example in examples/maxconnection.
+  * Version 0.1.9
+
+2011-03-27  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add file transfer download examples.
+  * Add max connection limit to simple echo example.
+  * Make inputBuffer accessible in TcpConnection.
+  * Const-ness correct in Buffer class.
+  * Add Mutex test for benchmarking.
+  * Replace anonymous namespace with muduo::detail in muduo/base.
+  * Version 0.1.8
+
+2011-02-03  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Fix LengthHeaderCodec::onMessage() in examples/asio/chat.
+  * Version 0.1.7
+
+2011-02-01  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Fix onConnection() in simple examples.
+  * Reset t_cachedTid after fork().
+  * Version 0.1.6
+
+2010-12-15  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add examples/multiplexer
+  * Fix epoll kNoneEvent
+  * Version 0.1.5
+
+2010-11-20  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Fix retry logic
+  * Version 0.1.4
+
+2010-09-26  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Check SO_ERROR when connection is made.
+
+2010-09-11  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Gracefully refuse clients when accept(2) returns EMFILE.
+  * Version 0.1.3
+
+2010-09-07  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Libevent benchmark for event handling.
+  * Version 0.1.2
+
+2010-09-04  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Ping-pong benchmark, version 0.1.1
+
+2010-08-30  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * First pre-alpha release, version 0.1.0
+
+2010-08-29  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Sub works.
+
+2010-08-28  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add twisted finger examples.
+
+2010-08-27  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add simple chargen example.
+
+2010-08-07  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add Date.
+
+2010-05-15  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Hub works.
+
+2010-05-14  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Inspects opened files and threads.
+
+2010-05-11  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add inspector for process info.
+
+2010-05-04  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add simple http server and client.
+
+2010-04-25  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Add examples.
+
+2010-04-11  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * TcpClient works.
+
+2010-04-03  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * TcpServer works.
+
+2010-03-15  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * TcpConnection at server side works.
+
+2010-03-14  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Acceptor works.
+
+2010-03-13  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * TimerQueue works.
+
+2010-03-12  Shuo Chen  <chenshuo@chenshuo.com>
+
+  * Starts working on Muduo.
